@@ -6,7 +6,28 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
   </head>
+  
+  <div class="tabs">
+      <div class="tabs-item active">
+        <a href="/">Home</a>
+      </div>
+      <div class="tabs-item">
+        <a href="/about">About</a>
+      </div>
+      <div class="tabs-item">
+        <h2><b>Big profitable Website</b></h2>
+      </div>
+      <div class="tabs-item">
+        <h3>75</h3>
+        <p>Upvoted!!</p>
+      </div>
+      <div class="tabs-item">
+        <h3>75</h3>
+        <p>Upvoted!!</p>
+      </div>
+    </div>
 
   <body>
     <%= yield %>
